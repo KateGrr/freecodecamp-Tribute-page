@@ -12,6 +12,7 @@
     background-color: #2d2d2a;
     color: #efefef;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     border-radius: 7px;
 }
 
@@ -22,13 +23,13 @@
 }
 
 h1 {
-    font-weight: 900;
+    font-weight: 800;
     margin-top: 50px;
     font-size: 40px;
 }
 
 h2 {
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 30px;
 }
 
@@ -39,7 +40,9 @@ blockquote {
 
 .div-img {
     margin: 0 auto;
-    max-width: 80%;
+    padding: 3rem 3rem 1rem 3rem;
+    background-color: #f0f0f0;
+    max-width: 90%;
 }
 
 
@@ -56,23 +59,54 @@ blockquote {
 #img-caption {
     margin-top: 10px;
     text-align: right;
+    font-style: italic;
+    color: #2d2d2a;
 }
 
 #tribute-info {
-    max-width: 80%;
+    max-width: 60%;
     margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1,5;
+    font-size: 0,5rem;
+    font-weight: 300;
+    line-height: 1.5;
 }
 
-h3 {
-    padding-left: 5px;
+.li-header {
+    list-style: none;
+    font-weight: 400;
+    margin-top: 20px;
 }
 
 li {
-    list-style: disc;
+    list-style-type: square;
+}
+
+.quote {
+    font-style: italic;
+    margin-top: 60px;
+    max-width: 100%;
+    text-align: center;
 }
 
 footer {
     max-height: max-content;
     text-align: center;
     margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+a {
+    color: #848fa5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c14953;
 }
