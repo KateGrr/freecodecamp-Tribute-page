@@ -7,7 +7,6 @@
 #main {
     margin: 10px auto;
     max-width: 95%;
-    max-height: 100%;
     padding: 20px;
     background-color: #2d2d2a;
     color: #efefef;
@@ -39,7 +38,7 @@ blockquote {
     hanging-punctuation: first;
 }
 
-.div-img {
+#img-div {
     margin: 100px auto 0 auto;
     padding: 3rem 3rem 1rem 3rem;
     background-color: #f0f0f0;
@@ -49,10 +48,7 @@ blockquote {
 
 #image {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -72,7 +68,7 @@ blockquote {
     justify-content: center;
     align-items: center;
     line-height: 1,5;
-    font-size: 0,5rem;
+    font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
 }
@@ -89,6 +85,7 @@ li {
 
 .quote {
     font-style: italic;
+    font-size: 20px;
     margin-top: 100px;
     max-width: 100%;
     text-align: center;
